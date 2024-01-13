@@ -1,5 +1,0 @@
-com\nova\freezeplugin\FreezePlugin.class
-com\nova\freezeplugin\commands\FreezeCommand.class
-com\nova\freezeplugin\commands\UnfreezeCommand.class
-com\nova\freezeplugin\other\EventListener.class
-com\nova\freezeplugin\publiccmds\RequestCommand.class
