@@ -17,7 +17,6 @@ public final class FreezePlugin extends JavaPlugin {
     public FreezePlugin() {
         frozen = new ArrayList<UUID>();
         frozenlist = new ArrayList<UUID>();
-        requester = new ArrayList<Player>();
     }
 
     @Override
