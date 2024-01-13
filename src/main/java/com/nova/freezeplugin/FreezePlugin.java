@@ -27,7 +27,7 @@ public final class FreezePlugin extends JavaPlugin {
     public void onEnable() {
         this.getCommand("freeze").setExecutor(new FreezeCommand());
         this.getCommand("unfreeze").setExecutor(new UnfreezeCommand());
-        this.getCommand("request").setExecutor(new RequestCommand());
+        
         this.getServer().getPluginManager().registerEvents(new EventListener(), this);
 
     }
