@@ -3,7 +3,6 @@ package com.nova.freezeplugin;
 import com.nova.freezeplugin.commands.FreezeCommand;
 import com.nova.freezeplugin.commands.UnfreezeCommand;
 import com.nova.freezeplugin.other.EventListener;
-import com.nova.freezeplugin.publiccmds.RequestCommand;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -14,8 +13,6 @@ public final class FreezePlugin extends JavaPlugin {
 
     public static ArrayList<UUID> frozen;
     public static ArrayList<UUID> frozenlist;
-
-    public static ArrayList<Player> requester;
 
     public FreezePlugin() {
         frozen = new ArrayList<UUID>();
