@@ -3,7 +3,6 @@ version: '${project.version}'
 main: com.nova.freezeplugin.FreezePlugin
 authors: [TheTrueNova]
 description: freeze plugin
-website: https://discord.gg/tVDW7NeqPv
 commands:
   freeze:
     aliases:
@@ -12,8 +11,3 @@ commands:
     description: Use this command to freeze someone.
   unfreeze:
     description: Use this to unfreeze someone who is frozen.
-  request:
-    aliases:
-      - support
-      - help
-    description: Request support from online staff members.
